@@ -39,27 +39,28 @@ A full-stack e-commerce web application built with Node.js, Express, MySQL, and 
 ## 📁 Project Structure
 
 ```
-ecommerce-backend/
-├── server.js              # Entry point
-├── db.js                  # MySQL connection
-├── .env                   # Environment variables (not pushed to GitHub)
-├── database.sql           # Database schema + sample data
-├── middleware/
-│   └── auth.js            # JWT authentication & admin authorization
-└── routes/
-    ├── auth.js            # Register, Login
-    ├── categories.js      # Product categories & subcategories
-    ├── products.js        # Product management
-    ├── cart.js            # Shopping cart
-    ├── orders.js          # Order placement & history
-    └── payments.js        # Razorpay payment integration
-
-ecommerce-frontend/
-├── login.html             # Login page
-├── register.html          # Register page
-├── products.html          # Product listing + admin controls
-├── cart.html              # Shopping cart
-└── orders.html            # Order history + payments
+ShopEase/
+├── README.md
+├── ecommerce-backend/
+│   ├── server.js              # Entry point
+│   ├── db.js                  # MySQL connection
+│   ├── .env                   # Environment variables (not pushed to GitHub)
+│   ├── database.sql           # Database schema + sample data
+│   ├── middleware/
+│   │   └── auth.js            # JWT authentication & admin authorization
+│   └── routes/
+│       ├── auth.js            # Register, Login
+│       ├── categories.js      # Product categories & subcategories
+│       ├── products.js        # Product management
+│       ├── cart.js            # Shopping cart
+│       ├── orders.js          # Order placement & history
+│       └── payments.js        # Razorpay payment integration
+└── ecommerce-frontend/
+    ├── login.html             # Login page
+    ├── register.html          # Register page
+    ├── products.html          # Product listing + admin controls
+    ├── cart.html              # Shopping cart
+    └── orders.html            # Order history + payments
 ```
 
 ---
@@ -74,7 +75,7 @@ ecommerce-frontend/
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/dhruv-rathi-tech/ecommerce_web.git
-cd ecommerce_web
+cd ShopEase
 ```
 
 ### 2. Install dependencies
@@ -98,7 +99,7 @@ npm run dev
 Server runs at `http://localhost:3000`
 
 ### 6. Open the frontend
-Open `login.html` directly in your browser.
+Open `ecommerce-frontend/login.html` directly in your browser.
 
 ---
 
@@ -197,5 +198,4 @@ This project can be deployed for free using:
 ---
 
 ## 📄 License
-
 This project is open source and available under the [MIT License](LICENSE).
